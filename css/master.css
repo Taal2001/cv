@@ -90,6 +90,14 @@ hr {
 .btn {
 }
 
+.profile {
+  width: 650px;
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
 p {
   margin: 0;
 }
@@ -103,7 +111,7 @@ p {
 #top-cloud-img {
   opacity: 30%;
   position: absolute;
-  right: 30%;
+  right: 20%;
   top: 30px;
   z-index: auto;
 }
@@ -111,7 +119,7 @@ p {
 #bottom-cloud-img {
   opacity: 30%;
   position: absolute;
-  left: 25%;
+  left: 17%;
   top: 100px;
   z-index: auto;
 }
