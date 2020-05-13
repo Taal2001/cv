@@ -45,15 +45,19 @@ hr {
 .bottom-container {
   background-color: #94d3ac;
   width: 100%;
+  padding-bottom: 15px;
 }
 
 .webdevIcon {
+  float: left;
   width: 25%;
+  margin-right: 30px;
 }
 
 .printerIcon {
+  float: right;
   width: 25%;
-  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .emailLink {
@@ -71,7 +75,19 @@ hr {
 }
 
 .skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
 
+.copyrightLine {
+  font-size: 10px;
+  color: white;
+  padding-top: 10px
+}
+
+.btn {
 }
 
 p {
@@ -113,5 +129,5 @@ p {
 #headshot {
   border-radius: 18%;
   margin-top: 35px;
-  width: 150px;
+  width: 20%;
 }
