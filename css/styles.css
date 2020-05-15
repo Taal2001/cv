@@ -1,0 +1,132 @@
+/* Font Familes
+
+font-family: 'Comfortaa', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+*/
+
+body {
+  font-family: "Roboto Slab";
+  text-align: center;
+}
+
+.splashOpen {
+  background-color: #00918e;
+  padding: 0 15% 5% 15%;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px; /* or 950px */
+}
+
+.navbar {
+  margin: 0;
+  padding: 40px 0 60px 0;
+}
+
+.navbar-brand {
+  font-family: "Comfortaa";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #eac100 !important;
+}
+
+.nav-link {
+  color: #eac100 !important;
+}
+
+.big-heading {
+  font-family: Comfortaa;
+  font-weight: 900;
+  font-size: 7em;
+  color: #eac100;
+  text-align: left;
+}
+
+#headingSubtext {
+  text-align: left;
+  font-family: "Comfortaa";
+  font-size: 2rem;
+  color: #eac100;
+}
+
+#headshotMain {
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 100%;
+  border: 12px solid #eac100;
+  position: relative;
+  right: 7px;
+}
+
+.skillsSection {
+  background-color: #4dd599;
+  padding: 5% 15% 5% 15%;
+  font-family: "Raleway";
+  color: #110133;
+  font-weight: 500;
+}
+
+.skillsContainer {
+}
+
+#firstSkillImage {
+  max-width: 250px;
+  max-height: 250px;
+
+}
+
+.firstSkillDescription {
+  text-align: left;
+  padding: auto 0;
+}
+
+h3 {
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+#secondSkillImage {
+  max-width: 250px;
+  max-height: 250px;
+  margin-top: 40px;
+}
+
+.secondSkillDescription {
+  text-align: left;
+  padding: auto 0;
+  margin-top: 20px;
+}
+
+.contactSection {
+  background-color: #ffdc34;
+  font-family: "Raleway";
+}
+
+h4 {
+  color: #110133 !important;
+  padding: 5% 15% 5% 15%;
+  max-width: 900px;
+  background-color: #ffdc34;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #ffdc34;
+  padding: 0 15% 5% 15%;
+  font-family: "Raleway";
+  font-size: 2em;
+  color: #110133;
+}
+
+a {
+  color: #110133 !important;
+}
+
+a:hover {
+  color: #00918e !important;
+}
