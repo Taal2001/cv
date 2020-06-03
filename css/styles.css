@@ -65,7 +65,7 @@ body {
 
 .skillsSection {
   background-color: #4dd599;
-  padding: 5% 15% 5% 15%;
+  padding: 3% 15%;
   font-family: "Raleway";
   color: #110133;
   font-weight: 500;
@@ -93,13 +93,24 @@ h3 {
 #secondSkillImage {
   max-width: 250px;
   max-height: 250px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .secondSkillDescription {
   text-align: left;
   padding: auto 0;
-  margin-top: 20px;
+}
+
+#thirdSkillImage {
+  border-radius: 9%;
+  height: 250px;
+  margin-top: 60px;
+  width: 250px;
+}
+
+.thirdSkillDescription {
+  text-align: left;
+  padding: auto 0;
 }
 
 .contactSection {
@@ -129,4 +140,8 @@ a {
 
 a:hover {
   color: #00918e !important;
+}
+
+.row {
+  margin: 20px 0;
 }
